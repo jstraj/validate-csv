@@ -1,0 +1,16 @@
+--- 
+schemaName: "group_schema"
+totalColumns: 4
+columns: 
+  - 
+    columnName: "GroupName"
+    regexPattern: "^[a-zA-Z0-9\\s]*$"
+  - 
+    columnName: "Groupcode"
+    regexPattern: "^[a-zA-Z0-9\\s]*$"
+  - 
+    columnName: "GroupOwner"
+    regexPattern: "^[a-zA-Z0-9\\s]*$"
+  - 
+    columnName: "GroupCategoryID"
+    regexPattern: "^[0-9]*$"
